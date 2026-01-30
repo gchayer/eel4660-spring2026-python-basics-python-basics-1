@@ -2,8 +2,8 @@
 # and returns the number of odd numbers in the list.
 
 def countOdd(lst):
-    # Replace the pass statement with your code
-    pass
+   return sum(num%2 for num in lst)
+   
 
 if __name__ == "__main__":
     print(countOdd([1, 2, 3, 4, 5]))  # 3

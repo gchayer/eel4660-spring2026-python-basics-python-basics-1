@@ -1,8 +1,7 @@
 # Write a function sumEven(lst) to sum up all the even numbers in a list.
 
 def sumEven(lst):
-    # Replace the pass statement with your code
-    pass
+    return sum(num for num in lst if num%2==0)
 
 if __name__ == "__main__":
     print(sumEven([1, 2, 3, 4, 5]))  # 6

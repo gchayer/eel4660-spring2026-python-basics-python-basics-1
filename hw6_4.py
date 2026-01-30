@@ -3,8 +3,11 @@
 # (Note: there is a builtin function named max but pretend you cannot use it)
 
 def findmax(lst):
-    # Replace the pass statement with your code
-    pass
+    maxItem = lst[0]
+    for item in lst:
+        if item > maxItem:
+            maxItem = item
+    return maxItem 
 
 if __name__ == "__main__":
     # Home-built findmax function

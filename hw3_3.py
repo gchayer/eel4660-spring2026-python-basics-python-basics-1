@@ -7,7 +7,8 @@
 def print_squares():
     numbers = [12, 10, 32, 3, 66, 17, 42, 99, 20]
     # TODO: Write a loop that prints each number and its square on a new line
-    pass # Replace this line with your code
+    for number in numbers:
+        print(f"{number} {number*number}")
 
 if __name__ == "__main__":
     print_squares()

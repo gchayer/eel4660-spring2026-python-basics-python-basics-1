@@ -2,8 +2,7 @@
 # For example, sum_of_squares([2, 3, 4]) should return 29 since 4+9+16 = 29.
 
 def sum_of_squares(lst):
-    # Replace the pass statement with your code
-    pass
+    return sum(num**2 for num in lst)
 
 if __name__ == "__main__":
     print(sum_of_squares([2, 3, 4]))  # 29
